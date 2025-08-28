@@ -14,7 +14,7 @@ html { @apply scroll-smooth [zoom:75%]; }
 .btn-success { @apply bg-[#00A63E] text-white; }
 .btn-outline { @apply box-border border border-[#D4D6D5] text-light; }
 
-.card-container { @apply grid grid-cols-[repeat(3,436px)] gap-[30px] justify-items-center; }
+.card-container { @apply grid grid-cols-[repeat(1,1fr)] sm:grid-cols-[repeat(3,436px)] gap-[30px] justify-items-center; }
 
 .card-container .card { @apply min-w-[436px] bg-white p-8 rounded-[12px] shadow-custom flex flex-col justify-between gap-7; }
 
