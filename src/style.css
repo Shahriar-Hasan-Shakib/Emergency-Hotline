@@ -9,3 +9,27 @@
 }
 
 html { @apply scroll-smooth [zoom:75%]; }
+
+.btn { @apply inline-flex flex-row justify-center items-center gap-2 max-w-[182.33px] h-10 p-4 text-base font-normal leading-none text-left rounded-lg shadow-[0]; }
+.btn-success { @apply bg-[#00A63E] text-white; }
+.btn-outline { @apply box-border border border-[#D4D6D5] text-light; }
+
+.card-container { @apply grid grid-cols-[repeat(3,436px)] gap-[30px] justify-items-center; }
+
+.card-container .card { @apply min-w-[436px] bg-white p-8 rounded-[12px] shadow-custom flex flex-col justify-between gap-7; }
+
+.card-container .card .icon { @apply flex justify-between items-center; }
+.card-container .card .icon div { @apply w-15 h-15 rounded-2xl bg-[#FFE3E2] inline-flex justify-center items-center; }
+.card-container .card .icon div img { @apply w-8 h-8; }
+.card-container .card .icon span { @apply w-6 h-6; }
+
+.card-container .card .info .title { @apply text-2xl font-bold mb-1 text-dark; }
+.card-container .card .info .subtitle { @apply text-lg text-light font-medium; }
+.card-container .card .info .number { @apply text-dark font-bold text-[32px]; }
+.card-container .card .info .tag { @apply px-[6px] py-3 rounded-xl bg-lighter min-w-[50px] }
+
+.card-container .card .actions { @apply flex gap-2; }
+.card-container .card .actions button { @apply flex-1; }
+
+
+button, .love { @apply transition duration-300 ease-in-out hover:shadow-[0px_4px_6px_rgba(0,0,0,0.1)] active:scale-95 cursor-pointer;}
