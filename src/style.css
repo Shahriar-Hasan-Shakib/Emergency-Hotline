@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --shadow-custom: 0px 2px 3px rgba(0, 0, 0, 0.15);
+  --color-dark: #111111;
+  --color-light: #5C5C5C;
+  --color-lighter: #F2F2F2;
+  --color-surface: #FAFAFA;
+}
