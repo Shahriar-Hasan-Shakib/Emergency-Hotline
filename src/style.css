@@ -31,5 +31,12 @@ html { @apply scroll-smooth [zoom:75%]; }
 .card-container .card .actions { @apply flex gap-2; }
 .card-container .card .actions button { @apply flex-1; }
 
+#call-history { @apply text-lg; }
+#call-history .list { @apply flex flex-col gap-2; }
+#call-history .list li { @apply flex gap-4 justify-between items-center bg-surface p-4 rounded-lg }
+#call-history .list li div { @apply flex-4; }
+#call-history .title { @apply font-bold ; }
+#call-history .number { @apply text-light font-semibold; }
+#call-history .time { @apply flex-2 text-light; }
 
 button, .love { @apply transition duration-300 ease-in-out hover:shadow-[0px_4px_6px_rgba(0,0,0,0.1)] active:scale-95 cursor-pointer;}
