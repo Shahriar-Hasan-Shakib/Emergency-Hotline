@@ -7,3 +7,5 @@
   --color-lighter: #F2F2F2;
   --color-surface: #FAFAFA;
 }
+
+html { @apply scroll-smooth [zoom:75%]; }
