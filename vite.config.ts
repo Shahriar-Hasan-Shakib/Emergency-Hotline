@@ -5,4 +5,8 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
+    build: {
+        outDir: 'Emergency-Hotline', // dist এর পরিবর্তে Emergency-Hotline হবে
+        emptyOutDir: true           // আগে পুরোনোটা ডিলিট করবে
+    }
 })
